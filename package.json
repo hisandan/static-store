@@ -6,7 +6,8 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "generate:stickers": "node ./scripts/generate-stickers-index.mjs"
   },
   "dependencies": {
     "astro": "^5.14.1"
